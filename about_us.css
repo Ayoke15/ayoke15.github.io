@@ -1,0 +1,30 @@
+#avatar{
+    box-shadow: 0px 0px 10px 0px #000000;
+}
+.about_us{
+    font-family: Oswald;
+}
+.about_us p{
+    margin:0px 50px;
+}
+.contact_info{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.contact_info__text{
+    padding: 0px 50px 0px 80px;
+}
+@media (max-width: 1024px) {
+    .contact_info{
+        display:flex;
+        flex-direction:column;
+        align-content: center;
+        justify-content: space-around;
+    }
+    .contact_info__text{
+        padding: 30px;
+    }
+}
