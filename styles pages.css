@@ -3,8 +3,8 @@ html, body {
     margin: 0;
     height: 100%;
     z-index: 0;
+    min-width: 100%;
 }
-
 ul { padding-inline-start: 0; }
 
 html {
@@ -168,7 +168,7 @@ header {
     margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 720px) {
 
     .header:before {
         background-color: #241E26;
@@ -364,6 +364,9 @@ header {
     .footer .row a i{
         margin:0% 3%;
     }
+    .third_news img{
+        width: 300px;
+    }
 }
 /*css for main site*/
 .first_news{
@@ -417,7 +420,7 @@ header {
     border-radius:30px;
 }
 .second_news:hover > p{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: transform 1s;
 
 }
@@ -450,7 +453,7 @@ header {
 
 }
 
-@media (max-width: 1024px){
+@media (max-width: 720px){
     .first_news{
         align-items: center;
         flex-direction: column;

@@ -17,7 +17,7 @@
 .contact_info__text{
     padding: 0px 50px 0px 80px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 720px) {
     .contact_info{
         display:flex;
         flex-direction:column;
