@@ -1,0 +1,286 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+ul { padding-inline-start: 0; }
+
+
+html {
+    font: 1em/1.5 "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizelegibility;
+}
+
+body {
+    font-size: 1.3em;
+    max-width: 100%;
+}
+
+/* css for header*/
+hgroup img{
+    padding:10px;
+    background: #091524;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    opacity: 0.8;
+}
+hgroup h2{
+    font-family: Oswald, sans-serif;
+}
+header {
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+    background: url(ресурсы/170260-illustracia-anime-atmosfera-sinij-mir-1920x1080.jpg) center no-repeat;
+    /* Image Credit: Unsplash.me */
+    background-size: cover;
+}
+header .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+header h1, header h2 {
+    margin: 0;
+}
+header h2 {
+    text-transform: uppercase;
+    margin-top: -.5em;
+}
+header hgroup {
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    border: 5px solid #fff;
+    padding: .5em 3em;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+header .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background:#333 center no-repeat;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0;  -webkit-filter: blur(4px);
+}
+
+/*css for site*/
+.last_cat{
+    display: flex;
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 100px 20px 20px 1%;
+    width: 100%;
+}
+.last_cat p{
+    font-family: Oswald;
+    margin: 60px;
+    padding:50px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    transition: border-radius 0.1s;
+    width: 50%;
+}
+.last_cat p:hover{
+    background: #f8f8f8;
+    opacity: 80%;
+    border-radius: 20px;
+}
+.content_site{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(#efefef, pink);
+    overflow-x: hidden;
+}
+.content_site img {
+    width: 500px;
+    max-width: 100%;
+}
+.content_site p{
+    font-family: Oswald, serif;
+    margin: 60px;
+    padding:50px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    transition: border-radius 0.1s;
+}
+.content_site p:hover{
+    background: #fae1e6;
+    opacity: 80%;
+    border-radius: 20px;
+}
+
+.content_anime{
+    background: linear-gradient(#efefef, pink);
+    position:relative;
+}
+
+._line{
+    background: white;
+    dislay:block;
+    align-content: space-around;
+
+}
+._line h1{
+    font-size: 40px;
+    font-family: Oswald, serif;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: black 0 6px 4px -4px ;
+}
+._line img{
+    height: 200px;
+}
+
+.site {
+    padding: 6em 0px;
+    text-align: center;
+    background-color: #efefef;
+    font-size: .8em;
+    color: #444;
+    position:relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+.site a {
+    color: #666;
+    text-decoration: none;
+}
+.site a:hover {
+    color: #222;
+}
+
+.site nav{
+    position:absolute;
+    top:0;
+    left:0;
+    background: #091524;
+    width:100%;
+    z-index:100;
+}
+.site nav a{
+    padding:10px 30px;
+    font-size:1.3em;
+    display:inline-block;
+    font-family:Oswald;
+}
+.site nav a:hover{
+    background: #be6670;
+    color:#fff
+}
+.first_news img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content_cartoon{
+    margin-top:20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+._line:hover {
+    background: #eeeeee;
+}
+
+/*css for footer*/
+.footer{
+    background: #021525;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    overflow-x: hidden;
+}
+
+
+.footer .row{
+    width:100%;
+    margin:0.5% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    text-align: center;
+}
+
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+
+.footer .row a:hover{
+    color:#fff;
+}
+
+.footer .row ul{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+.footer img{
+    opacity: 80%;
+    transition:0.5s;
+}
+.footer img:hover{
+    opacity: 100%;
+}
+
+@media (max-width:720px){
+    .content_site{
+        display:flex;
+        flex-direction: column;
+    }
+    .last_cat{
+        display: block;
+    }
+    .footer{
+        text-align:left;
+        padding:5%;
+    }
+    .footer .row ul li{
+        display:flex;
+        flex-direction: row;
+        margin:10px 0px;
+        padding: 20px;
+        text-align:left;
+    }
+    .footer .row a i{
+        margin:0% 3%;
+    }
+}
