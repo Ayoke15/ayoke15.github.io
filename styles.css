@@ -265,6 +265,7 @@ header .overlay {
     .content_site{
         display:flex;
         flex-direction: column;
+        padding-top:70px;
     }
     .last_cat{
         display: block;
