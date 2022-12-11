@@ -98,9 +98,9 @@ header__burger.onclick = function(){
     }
 }
 
-header__list.onclick = function () {
-    back.classList.remove('lock');
-}
+    header__list.onclick = function () {
+        back.classList.remove('lock');
+    }
 
 let color = '#78aff8';
 let times = setTimeout( function () {

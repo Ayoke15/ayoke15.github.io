@@ -69,7 +69,7 @@ header {
 }
 .header__list {
     display: flex;
-    align-items: start;
+    align-items: center;
     position: relative;
     z-index: 50;
 }
@@ -260,6 +260,9 @@ header {
 
     .header__menu.active {
         top: 0;
+    }
+    .header__menu.active header__list {
+        padding-top: 20px;
     }
 
     .header__list {
